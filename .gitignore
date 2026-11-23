@@ -1,0 +1,10 @@
+# Search output: listing data from each run stays local
+runs/*
+!runs/.gitkeep
+report/*
+!report/.gitkeep
+data/geocode_cache.json
+__pycache__/
+*.pyc
+.DS_Store
+.claude/settings.local.json

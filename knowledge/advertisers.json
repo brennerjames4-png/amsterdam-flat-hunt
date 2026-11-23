@@ -1,0 +1,312 @@
+{
+ "_doc": "Registry of advertisers. verdict: landlord (owner/investor/corporatie), manager (property manager/operator), agent (makelaar/rental agency/relocation/aggregator -> EXCLUDE). match = lower-case substrings tested against the advertiser name. The search skill appends newly verified names here (with a short note + source) so every run gets smarter.",
+ "entries": [
+  {
+   "match": [
+    "vesteda"
+   ],
+   "verdict": "landlord",
+   "note": "Institutional investor; lets via vesteda.com (free account) and Pararius."
+  },
+  {
+   "match": [
+    "heimstaden"
+   ],
+   "verdict": "landlord",
+   "note": "Owner; appears on Pararius. Selling ~90% of units on vacancy."
+  },
+  {
+   "match": [
+    "bouwinvest",
+    "wonen bij bouwinvest"
+   ],
+   "verdict": "landlord",
+   "note": "Pension-fund investor; wonenbijbouwinvest.nl. Income test 42x/48x yearly."
+  },
+  {
+   "match": [
+    "mvgm",
+    "ik wil huren",
+    "ikwilhuren"
+   ],
+   "verdict": "manager",
+   "note": "Property manager for many funds; ikwilhuren.nu."
+  },
+  {
+   "match": [
+    "holland2stay"
+   ],
+   "verdict": "manager",
+   "note": "Operator, furnished studios/apartments; holland2stay.com."
+  },
+  {
+   "match": [
+    "greystar",
+    "ourdomain",
+    "our domain",
+    "ourcampus"
+   ],
+   "verdict": "manager",
+   "note": "Operator brands; OurDomain Amsterdam SE sold to M&G Nov 2026."
+  },
+  {
+   "match": [
+    "uppmark",
+    "uppmärk"
+   ],
+   "verdict": "manager",
+   "note": "Rental operator/manager of new-build projects (e.g. OurDomain Bullewijk on Pararius) [verify per listing]."
+  },
+  {
+   "match": [
+    "the social hub"
+   ],
+   "verdict": "manager",
+   "note": "Operator (student/short stay)."
+  },
+  {
+   "match": [
+    "change="
+   ],
+   "verdict": "manager",
+   "note": "Operator for 18–30 working young people."
+  },
+  {
+   "match": [
+    "xior"
+   ],
+   "verdict": "landlord",
+   "note": "Student housing owner."
+  },
+  {
+   "match": [
+    "de key",
+    "lieven de key"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association; mid-rent/young people. NEVER via sublet."
+  },
+  {
+   "match": [
+    "stadgenoot"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association. Mid-rent/free sector direct only."
+  },
+  {
+   "match": [
+    "ymere",
+    "yvastgoed"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association; free sector via Yvastgoed."
+  },
+  {
+   "match": [
+    "eigen haard"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association."
+  },
+  {
+   "match": [
+    "rochdale"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association."
+  },
+  {
+   "match": [
+    "de alliantie"
+   ],
+   "verdict": "landlord",
+   "note": "Housing association."
+  },
+  {
+   "match": [
+    "amvest"
+   ],
+   "verdict": "landlord",
+   "note": "Institutional investor."
+  },
+  {
+   "match": [
+    "a.s.r. real estate",
+    "asr real estate"
+   ],
+   "verdict": "landlord",
+   "note": "Institutional investor."
+  },
+  {
+   "match": [
+    "achmea real estate",
+    "syntrus achmea"
+   ],
+   "verdict": "landlord",
+   "note": "Institutional investor."
+  },
+  {
+   "match": [
+    "altera vastgoed"
+   ],
+   "verdict": "landlord",
+   "note": "Institutional investor."
+  },
+  {
+   "match": [
+    "van der linden vastgoedmanagement"
+   ],
+   "verdict": "manager",
+   "note": "Property manager (seen on Pararius)."
+  },
+  {
+   "match": [
+    "123wonen"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency franchise."
+  },
+  {
+   "match": [
+    "verhuurtbeter"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "grand relocation"
+   ],
+   "verdict": "agent",
+   "note": "Relocation/rental agency."
+  },
+  {
+   "match": [
+    "het stadshuis"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "gohome"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "rental solution"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "expat homes"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "find your room"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "wooove"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "van der huizen"
+   ],
+   "verdict": "agent",
+   "note": "Rental agency."
+  },
+  {
+   "match": [
+    "domiva"
+   ],
+   "verdict": "agent",
+   "note": "Bulk/aggregated feed on Marktplaats Admarkt."
+  },
+  {
+   "match": [
+    "kouwen real estate",
+    "evim makelaars"
+   ],
+   "verdict": "agent",
+   "note": "Seen on Funda."
+  },
+  {
+   "match": [
+    "vb&t",
+    "vbt verhuurmakelaars",
+    "vb&t verhuurmakelaars"
+   ],
+   "verdict": "agent",
+   "note": "Verhuurmakelaar (also lets Bouwinvest homes since 2026) - excluded."
+  },
+  {
+   "match": [
+    "homecrew",
+    "huizenbalie"
+   ],
+   "verdict": "private",
+   "note": "DIY listing service on Funda: the advertiser is the private owner."
+  },
+  {
+   "match": [
+    "nmg wonen"
+   ],
+   "verdict": "landlord",
+   "note": "Developer-landlord seen on Funda/Pararius."
+  },
+  {
+   "match": [
+    "codomo"
+   ],
+   "verdict": "manager",
+   "note": "Holland2Stay group brand (codomo.eu)."
+  },
+  {
+   "match": [
+    "interhouse"
+   ],
+   "verdict": "agent",
+   "note": "Makelaar franchise."
+  },
+  {
+   "match": [
+    "rentola",
+    "huurportaal",
+    "rentumo"
+   ],
+   "verdict": "agent",
+   "note": "Scraper/subscription-trap aggregator - never show."
+  },
+  {
+   "match": [
+    "homestate vastgoedbeheer",
+    "homestate"
+   ],
+   "verdict": "manager",
+   "note": "Property manager Amsterdam/Haarlem that also finds tenants for owners; ask that no tenant fees are charged. Source: Pararius profile, Uprent (2026-11-23)."
+  },
+  {
+   "match": [
+    "newcurb",
+    "openbare makelaardij",
+    "jacobus recourt"
+   ],
+   "verdict": "agent",
+   "note": "Makelaars seen on Pararius (2026-11-23)."
+  }
+ ]
+}
